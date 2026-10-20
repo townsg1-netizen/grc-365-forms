@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Survey Form</title>
+<style>
+
+    @font-face {
+		font-family: Georgia;
+        src: url("Georgia.ttf");
+		font-family: Mills;
+		src: url("mills.ttf");
+    } h1 {
+        text-align: center;
+        font-weight: normal;
+		font: 36pt/1.2em Mills italic;
+	 } h2 {
+        text-align: left;
+        font-weight: normal;
+		font: 16pt/1.2em Georgia italic;
+	 } h3 {
+        text-align: left;
+        font-weight: normal;
+		font: 12pt/0.1em Georgia italic;
+    } form {
+        width: 600px;
+        min-height: 1065px;
+        padding: 24px;
+        background: lightblue;
+        margin: 36px auto;
+        border: 1px solid darkgray;
+        box-shadow: 2px 3px 6px darkgray;
+        border-radius: 18px;
+        font: 14pt/1.2em Georgia;
+    } fieldset {
+        margin-top: 18px;
+    } #personal input, #submit {
+        width: 100%;
+        height: 24px;
+        margin-bottom: 12px;
+	} textarea {
+		width: 98%;
+		height: 140px;
+	} input[type="submit"] {
+		width: 140px;
+		height: 40px;
+		background: lightgray;
+		display: block;
+		margin: 0 auto;
+		font: 16pt/1.2em Georgia;
+	}
+</style>
+</head>
+
+<body>
+    <form action="#" method="post">
+    <h1>ART SURVEY</h1>
+	<fieldset>
+	<label>First Name </label> <br/>
+	<input type="text" /><br/>
+	<br/>
+	<label>Last Name </label> <br/>
+	<input type="text" /><br/>
+	</fieldset>
+	<br/>
+	<fieldset>
+	<h2>How did you find us?</h2>
+	<input type="radio" name="discovery" /><label>Instagram</label><br>
+	<input type="radio" name="discovery" /><label>Facebook</label><br>
+	<input type="radio" name="discovery" /><label>TikTok</label><br>
+	<input type="radio" name="discovery" /><label>Browser Search</label><br>
+	<input type="radio" name="discovery" /><label>Friend/Family</label><br>
+	<input type="radio" name="discovery" /><label>Other</label><br>
+	</fieldset>
+	<br/>
+	<fieldset>
+	<h2>How do you like to feel when viewing artwork?</h2>
+	<h3>PLEASE SELECT ALL THAT APPLY</h3>
+	<input type="checkbox"><label> Joy/Happiness</label>
+	<input type="checkbox"><label> Peace</label>
+	<input type="checkbox"><label> Fear/Uneasiness</label>
+	<input type="checkbox"><label> Confusion</label> 
+	<br/>
+	<input type="checkbox"><label> Fear/Uneasiness</label>
+	<input type="checkbox"><label> Nostalgia</label>
+	<input type="checkbox"><label> Angry</label>
+	<input type="checkbox"><label> Passionate</label>
+	</fieldset>
+	<br/>
+	<fieldset>
+	<h2>How do you like to feel when making artwork?</h2>
+	<h3>PLEASE SELECT ALL THAT APPLY</h3>
+	<input type="checkbox"><label> Joy/Happiness</label>
+	<input type="checkbox"><label> Peace</label>
+	<input type="checkbox"><label> Fear/Uneasiness</label>
+	<input type="checkbox"><label> Confusion</label> 
+	<br/>
+	<input type="checkbox"><label> Fear/Uneasiness</label>
+	<input type="checkbox"><label> Nostalgia</label>
+	<input type="checkbox"><label> Angry</label>
+	<input type="checkbox"><label> Passionate</label>
+	</fieldset>
+	<br/>
+	<fieldset>
+	<h2>We would love to hear a little bit about your favorite art piece that you have see or made!</h2>
+	<textarea>
+	</textarea> 
+	<br/>
+	</fieldset>
+	<br/>
+	<br/>
+	<input type="submit" value="SUBMIT" />
+    </form>
+</body>
+</html>
